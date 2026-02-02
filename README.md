@@ -1,73 +1,143 @@
-# Welcome to your Lovable project
+# Prathik Reddy | Portfolio Website
 
-## Project info
+![Portfolio Preview](public/og-image.png)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A modern, responsive portfolio website built with React, TypeScript, Tailwind CSS, and Framer Motion.
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- **Modern Design** - Dark theme with cyan/purple gradient accents
+- **Fully Responsive** - Optimized for all devices
+- **Smooth Animations** - Powered by Framer Motion
+- **SEO Optimized** - Meta tags, Open Graph, and semantic HTML
+- **Interactive Timeline** - Professional experience visualization
+- **Testimonials Carousel** - Auto-advancing with smooth transitions
+- **Contact Form** - Ready for backend integration
+- **Resume Download** - Direct PDF download
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Framework:** React 18 + TypeScript
+- **Styling:** Tailwind CSS + CSS Variables
+- **Animations:** Framer Motion
+- **UI Components:** shadcn/ui
+- **Build Tool:** Vite
+- **Icons:** Lucide React
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📁 Project Structure
 
-**Use your preferred IDE**
+```
+src/
+├── components/
+│   ├── sections/          # Page sections
+│   │   ├── HeroSection.tsx
+│   │   ├── AboutSection.tsx
+│   │   ├── SkillsSection.tsx
+│   │   ├── ProjectsSection.tsx
+│   │   ├── ExperienceSection.tsx
+│   │   ├── TestimonialsSection.tsx
+│   │   └── ContactSection.tsx
+│   ├── ui/                # shadcn components
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   ├── ProjectCard.tsx
+│   ├── SkillBadge.tsx
+│   ├── Timeline.tsx
+│   └── SectionHeading.tsx
+├── pages/
+│   └── Index.tsx
+├── index.css              # Design system
+└── main.tsx
+public/
+├── Prathik_Reddy_Resume.pdf
+├── og-image.png
+└── favicon.ico
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🎨 Design System
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Color Palette
+| Token | HSL Value | Usage |
+|-------|-----------|-------|
+| `--primary` | `187 85% 53%` | Cyan accent |
+| `--accent` | `270 76% 60%` | Purple accent |
+| `--background` | `222 47% 6%` | Dark base |
+| `--foreground` | `210 40% 98%` | Text color |
+| `--secondary` | `217 33% 17%` | Card backgrounds |
+| `--muted-foreground` | `215 20% 55%` | Subtle text |
 
-Follow these steps:
+### Typography
+- **Headings:** Inter (700-900 weight)
+- **Body:** Inter (400-500 weight)
+- **Code:** JetBrains Mono
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
+- Node.js 18+
+- npm or bun
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/prathik-portfolio.git
+cd prathik-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build for Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+## 📝 Customization
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Personal Info:** Edit data in each section component
+2. **Colors:** Modify CSS variables in `src/index.css`
+3. **Resume:** Replace `public/Prathik_Reddy_Resume.pdf`
+4. **Images:** Add to `src/assets/` and import
 
-## What technologies are used for this project?
+## 🌐 Deployment
 
-This project is built with:
+### Vercel (Recommended)
+```bash
+npm i -g vercel
+vercel
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### GitHub Pages
+```bash
+npm run build
+# Push dist/ folder to gh-pages branch
+```
 
-## How can I deploy this project?
+### Netlify
+```bash
+npm run build
+# Drag & drop dist/ folder to Netlify
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 👤 About
 
-## Can I connect a custom domain to my Lovable project?
+**Prathik Reddy SannapuReddy**
 
-Yes, you can!
+MS Computer Science @ Syracuse University | Full-Stack Developer | AI Enthusiast
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- **Email:** psannapu@syr.edu
+- **LinkedIn:** [linkedin.com/in/prathik-reddy](https://linkedin.com/in/prathik-reddy)
+- **Phone:** (680) 356-6586
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📄 License
+
+MIT © Prathik Reddy SannapuReddy
+
+---
+
+Built with ❤️ using [Lovable](https://lovable.dev)
