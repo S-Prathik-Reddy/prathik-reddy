@@ -3,10 +3,9 @@ import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 const socialLinks = [
   { icon: Linkedin, href: 'https://www.linkedin.com/in/prathik-sannapureddy/', label: 'LinkedIn' },
-  { icon: Github, href: 'https://github.com/S-Prathik-Reddy'', label: 'GitHub' },
-  { icon: Mail, href: 'mailto:sreddy.prathik@gmail.com'', label: 'Email' },
-];
-
+  { icon: Github, href: 'https://github.com/S-Prathik-Reddy', label: 'Github' }, 
+  { icon: Mail, href: 'mailto:sreddy.prathik@gmail.com', label: 'Email' },
+  ];
 const Footer = () => {
   return (
     <footer className="relative py-12 border-t border-border/50">
