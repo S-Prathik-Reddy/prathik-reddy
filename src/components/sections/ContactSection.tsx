@@ -8,14 +8,14 @@ import { Mail, Phone, MapPin, Send, Linkedin, Github, Download } from 'lucide-re
 import { useToast } from '@/hooks/use-toast';
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "sreddy.prathik@gmail.com, href: "mailto:sreddy.prathik@gmail.com },
+  { icon: Mail, label: "Email", value: "sreddy.prathik@gmail.com", href: "mailto:sreddy.prathik@gmail.com" },
   { icon: Phone, label: "Phone", value: "(680) 356-6586", href: "tel:+16803566586" },
   { icon: MapPin, label: "Location", value: "Syracuse, NY", href: null },
 ];
 
 const socialLinks = [
-  { icon: Linkedin, label: "LinkedIn", href: https://www.linkedin.com/in/prathik-sannapureddy/ },
-  { icon: Github, label: "GitHub", href: https://github.com/S-Prathik-Reddy" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/prathik-sannapureddy/" },
+  { icon: Github, label: "GitHub", href: "https://github.com/S-Prathik-Reddy" },
 ];
 
 const ContactSection = () => {
