@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Linkedin, href: 'https://linkedin.com/in/prathik-reddy', label: 'LinkedIn' },
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Mail, href: 'mailto:psannapu@syr.edu', label: 'Email' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/prathik-sannapureddy/', label: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/S-Prathik-Reddy'', label: 'GitHub' },
+  { icon: Mail, href: 'mailto:sreddy.prathik@gmail.com'', label: 'Email' },
 ];
 
 const Footer = () => {
