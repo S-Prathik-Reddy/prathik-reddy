@@ -79,7 +79,7 @@ const HeroSection = () => {
             <span className="text-border">|</span>
             <div className="flex items-center gap-1">
               <Mail className="w-4 h-4 text-primary" />
-              psannapu@syr.edu
+              sreddy.prathik@gmail.com
             </div>
           </motion.div>
 
