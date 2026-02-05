@@ -8,6 +8,7 @@
   Style: Bold gradients, glassmorphism, smooth animations
   Primary: Cyan/Teal | Accent: Purple | Base: Slate
 */
+/* CSS Fixed - Fonts imported before tailwind directives */
 
 
 @layer base {
